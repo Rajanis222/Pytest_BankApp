@@ -1,0 +1,107 @@
+2024-12-11 02:03:11,763 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is started
+2024-12-11 02:03:11,763 : INFO :test_bankapp_url_001:  Opening the Bank Application URL
+2024-12-11 02:03:13,831 : INFO :test_bankapp_url_001:  Checking the Bank Application Title-->Bank Application
+2024-12-11 02:03:13,846 : INFO :test_bankapp_url_001:  Taking screenshot
+2024-12-11 02:03:14,008 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is passed
+
+2024-12-11 02:07:49,529 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is started
+2024-12-11 02:07:49,529 : INFO :test_bankapp_url_001:  Opening the Bank Application URL
+2024-12-11 02:07:51,780 : INFO :test_bankapp_url_001:  Checking the Bank Application Title-->Bank Application
+2024-12-11 02:07:51,802 : INFO :test_bankapp_url_001:  Taking screenshot
+2024-12-11 02:07:51,967 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is passed
+
+2024-12-11 02:11:20,211 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is started
+2024-12-11 02:11:20,211 : INFO :test_bankapp_url_001:  Opening the Bank Application URL
+2024-12-11 02:11:21,807 : INFO :test_bankapp_url_001:  Checking the Bank Application Title-->Bank Application
+2024-12-11 02:11:21,818 : INFO :test_bankapp_url_001:  Taking screenshot
+2024-12-11 02:11:21,999 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is passed
+
+2024-12-11 02:11:47,229 : WARNING :urlopen:  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BB0F350F80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/44c7ac39085c323658d98fe737d3e0a3
+2024-12-11 02:11:51,302 : WARNING :urlopen:  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BB0F3511F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/44c7ac39085c323658d98fe737d3e0a3
+2024-12-11 02:11:55,366 : WARNING :urlopen:  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BB0F353080>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/44c7ac39085c323658d98fe737d3e0a3
+2024-12-11 02:13:04,844 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is started
+2024-12-11 02:13:04,844 : INFO :test_bankapp_url_001:  Opening the Bank Application URL
+2024-12-11 02:13:06,256 : INFO :test_bankapp_url_001:  Checking the Bank Application Title-->Bank Application
+2024-12-11 02:13:06,261 : INFO :test_bankapp_url_001:  Taking screenshot
+2024-12-11 02:13:06,412 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is passed
+
+2024-12-11 10:16:58,816 : WARNING :_process_logs:  Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2024-12-11 10:16:59,632 : WARNING :_process_logs:  Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2024-12-11 10:17:04,328 : WARNING :_process_logs:  Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2024-12-11 10:17:05,620 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is started
+2024-12-11 10:17:05,620 : INFO :test_bankapp_url_001:  Opening the Bank Application URL
+2024-12-11 11:33:50,425 : INFO :test_bankapp_signup_003:  Testcase test_bankapp_signup_003 is started
+2024-12-11 11:33:50,425 : INFO :test_bankapp_signup_003:  Opening the bank app url:https://apps.credence.in/user.html
+2024-12-11 11:33:50,666 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is started
+2024-12-11 11:33:50,667 : INFO :test_bankapp_url_001:  Opening the Bank Application URL
+2024-12-11 11:33:50,676 : INFO :test_bankapp_login_002:  Testcase test_bankapp_login_002 is started
+2024-12-11 11:33:50,676 : INFO :test_bankapp_login_002:  opening the bank application url: https://apps.credence.in/login.html
+2024-12-11 11:33:52,652 : INFO :test_bankapp_login_002:  Entering username
+2024-12-11 11:33:52,687 : INFO :test_bankapp_signup_003:  Entering username
+2024-12-11 11:33:52,825 : INFO :test_bankapp_login_002:  Entering password
+2024-12-11 11:33:52,830 : INFO :test_bankapp_signup_003:  Entering password
+2024-12-11 11:33:52,954 : INFO :test_bankapp_signup_003:  Entering phone number
+2024-12-11 11:33:52,967 : INFO :test_bankapp_login_002:  Clicking the Login Button
+2024-12-11 11:33:53,096 : INFO :test_bankapp_signup_003:  Entering email
+2024-12-11 11:33:53,159 : INFO :test_bankapp_signup_003:  Clicking on the create user button
+2024-12-11 11:33:53,260 : INFO :test_bankapp_url_001:  Checking the Bank Application Title-->Bank Application
+2024-12-11 11:33:53,264 : INFO :test_bankapp_url_001:  Taking screenshot
+2024-12-11 11:33:53,392 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is passed
+
+2024-12-11 11:33:53,809 : INFO :test_bankapp_signup_003:  Verifying if user created successfully
+2024-12-11 11:33:53,828 : INFO :test_bankapp_signup_003:  Test case test_bankapp_signup_003 is pass 
+2024-12-11 11:33:53,828 : INFO :test_bankapp_signup_003:  Taking screenshot
+2024-12-11 11:33:54,679 : INFO :test_bankapp_login_002:  Verifying page title
+2024-12-11 11:33:54,693 : INFO :test_bankapp_login_002:  Testcase test_bankapp_login_002 is pass
+2024-12-11 11:33:54,693 : INFO :test_bankapp_login_002:  Taking screenshot
+2024-12-11 11:33:54,847 : INFO :test_bankapp_login_002:  Testcase test_bankapp_login_002 is passed
+2024-12-11 11:34:48,555 : INFO :test_bankapp_signup_003:  Testcase test_bankapp_signup_003 is started
+2024-12-11 11:34:48,556 : INFO :test_bankapp_signup_003:  Opening the bank app url:https://apps.credence.in/user.html
+2024-12-11 11:34:48,688 : INFO :test_bankapp_login_002:  Testcase test_bankapp_login_002 is started
+2024-12-11 11:34:48,689 : INFO :test_bankapp_login_002:  opening the bank application url: https://apps.credence.in/login.html
+2024-12-11 11:34:48,817 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is started
+2024-12-11 11:34:48,817 : INFO :test_bankapp_url_001:  Opening the Bank Application URL
+2024-12-11 11:34:49,602 : INFO :test_bankapp_signup_003:  Entering username
+2024-12-11 11:34:49,703 : INFO :test_bankapp_signup_003:  Entering password
+2024-12-11 11:34:49,822 : INFO :test_bankapp_signup_003:  Entering phone number
+2024-12-11 11:34:50,017 : INFO :test_bankapp_signup_003:  Entering email
+2024-12-11 11:34:50,109 : INFO :test_bankapp_signup_003:  Clicking on the create user button
+2024-12-11 11:34:50,607 : INFO :test_bankapp_url_001:  Checking the Bank Application Title-->Bank Application
+2024-12-11 11:34:50,615 : INFO :test_bankapp_url_001:  Taking screenshot
+2024-12-11 11:34:50,668 : INFO :test_bankapp_signup_003:  Verifying if user created successfully
+2024-12-11 11:34:50,691 : INFO :test_bankapp_signup_003:  Test case test_bankapp_signup_003 is pass 
+2024-12-11 11:34:50,691 : INFO :test_bankapp_signup_003:  Taking screenshot
+2024-12-11 11:34:50,795 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is passed
+
+2024-12-11 11:34:51,064 : INFO :test_bankapp_login_002:  Entering username
+2024-12-11 11:34:51,162 : INFO :test_bankapp_login_002:  Entering password
+2024-12-11 11:34:51,244 : INFO :test_bankapp_login_002:  Clicking the Login Button
+2024-12-11 11:34:52,564 : INFO :test_bankapp_login_002:  Verifying page title
+2024-12-11 11:34:52,574 : INFO :test_bankapp_login_002:  Testcase test_bankapp_login_002 is pass
+2024-12-11 11:34:52,574 : INFO :test_bankapp_login_002:  Taking screenshot
+2024-12-11 11:34:52,736 : INFO :test_bankapp_login_002:  Testcase test_bankapp_login_002 is passed
+2024-12-11 11:36:44,141 : INFO :test_bankapp_login_002:  Testcase test_bankapp_login_002 is started
+2024-12-11 11:36:44,141 : INFO :test_bankapp_login_002:  opening the bank application url: https://apps.credence.in/login.html
+2024-12-11 11:36:44,185 : INFO :test_bankapp_signup_003:  Testcase test_bankapp_signup_003 is started
+2024-12-11 11:36:44,186 : INFO :test_bankapp_signup_003:  Opening the bank app url:https://apps.credence.in/user.html
+2024-12-11 11:36:44,247 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is started
+2024-12-11 11:36:44,247 : INFO :test_bankapp_url_001:  Opening the Bank Application URL
+2024-12-11 11:36:46,554 : INFO :test_bankapp_signup_003:  Entering username
+2024-12-11 11:36:46,638 : INFO :test_bankapp_signup_003:  Entering password
+2024-12-11 11:36:46,737 : INFO :test_bankapp_signup_003:  Entering phone number
+2024-12-11 11:36:46,954 : INFO :test_bankapp_signup_003:  Entering email
+2024-12-11 11:36:47,037 : INFO :test_bankapp_signup_003:  Clicking on the create user button
+2024-12-11 11:36:47,493 : INFO :test_bankapp_login_002:  Entering username
+2024-12-11 11:36:47,588 : INFO :test_bankapp_signup_003:  Verifying if user created successfully
+2024-12-11 11:36:47,596 : INFO :test_bankapp_login_002:  Entering password
+2024-12-11 11:36:47,612 : INFO :test_bankapp_signup_003:  Test case test_bankapp_signup_003 is pass 
+2024-12-11 11:36:47,612 : INFO :test_bankapp_signup_003:  Taking screenshot
+2024-12-11 11:36:47,672 : INFO :test_bankapp_login_002:  Clicking the Login Button
+2024-12-11 11:36:47,743 : INFO :test_bankapp_url_001:  Checking the Bank Application Title-->Bank Application
+2024-12-11 11:36:47,746 : INFO :test_bankapp_url_001:  Taking screenshot
+2024-12-11 11:36:47,918 : INFO :test_bankapp_url_001:  Testcase test_bankapp_url_001 is passed
+
+2024-12-11 11:36:49,988 : INFO :test_bankapp_login_002:  Verifying page title
+2024-12-11 11:36:49,988 : INFO :test_bankapp_login_002:  Testcase test_bankapp_login_002 is pass
+2024-12-11 11:36:49,988 : INFO :test_bankapp_login_002:  Taking screenshot
+2024-12-11 11:36:50,156 : INFO :test_bankapp_login_002:  Testcase test_bankapp_login_002 is passed
