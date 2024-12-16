@@ -28,7 +28,7 @@ class Test_Login01:
     @pytest.mark.sanity
     @pytest.mark.userprofile
     @pytest.mark.flaky
-    @pytest.mark.dependancy(name="test_bankapp_url_001")
+    # @pytest.mark.dependancy(name="test_bankapp_url_001")
     def test_bankapp_url_001(self):
         #driver=webdriver.Firefox()
         #driver.implicitly_wait(10)
@@ -58,7 +58,7 @@ class Test_Login01:
 
     @pytest.mark.sanity
     @pytest.mark.userprofile
-    @pytest.mark.dependancy(depends=["test_bankapp_url_001"])
+    # @pytest.mark.dependency(depends=["test_bankapp_url_001"])
     def test_bankapp_login_002(self):
         self.log.info("Testcase test_bankapp_login_002 is started")
         # Initialize test case
@@ -97,6 +97,9 @@ class Test_Login01:
             self.log.info("Testcase test_bankapp_login_002 is failed")
             assert False
 
+    @pytest.mark.sanity
+    @pytest.mark.userprofile
+    # @pytest.mark.dependency(depends=["test_bankapp_url_001"])
     def test_bankapp_signup_003(self,setup,faker):
         self.log.info("Testcase test_bankapp_signup_003 is started")
         self.driver=setup
@@ -151,7 +154,7 @@ def generate_random_phone_number():
 
 
 
-"pytest -v -s --html=Report/my_report.html -n auto"
+"pytest -v -s --html=Report/my_report.html -n auto -p no:warnings"
 
 
 
